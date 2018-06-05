@@ -102,6 +102,8 @@ const siteConfig = {
   //   url: 'https://facebook.github.io',
   //   baseUrl: '/test-site/',
 
+  cname: "docs.sketchware.io",
+
   // Used for publishing and more
   projectName: "sketchware.github.io",
   organizationName: "sketchware",
