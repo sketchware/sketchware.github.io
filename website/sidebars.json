@@ -1,0 +1,11 @@
+{
+  "docs": {
+    "Firebase Setup": [
+      "firebase-getting-started",
+      "firebase-linking-android-app",
+      "firebase-project-settings"
+    ],
+    "Firebase Database": ["firebase-database"],
+    "Firebase Auth": ["firebase-auth"]
+  }
+}

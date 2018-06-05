@@ -1,0 +1,264 @@
+/* your custom css */
+
+@media only screen and (min-device-width: 360px) and (max-device-width: 736px) {
+  h2 {
+    font-size: 16pt;
+  }
+  p {
+    font-size: 12pt;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  h2 {
+    font-size: 18pt;
+  }
+  p {
+    font-size: 14pt;
+  }
+}
+
+@media only screen and (max-width: 1023px) {
+}
+
+@media only screen and (min-width: 1400px) {
+}
+
+@media only screen and (min-width: 1500px) {
+}
+
+.text-box {
+  padding-left: 8%;
+  padding-right: 8%;
+}
+
+.title {
+  color: #008dcd;
+  font-size: 1.4em;
+  font-weight: normal;
+  margin-top: 0px;
+}
+
+.subtitle {
+  color: #7d7d7d;
+  font-size: 0.9em;
+  font-weight: normal;
+  margin-top: 4px;
+}
+
+.description {
+  margin-top: 24px;
+  margin-bottom: 24px;
+  color: #4d4d4d;
+}
+
+.inner {
+  padding-top: 48px;
+}
+
+.google-play-badge {
+  width: 20vw;
+  min-width: 180px;
+}
+
+/* ==================== FEATURES ==================== */
+
+.features {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-top: 48px;
+  padding-bottom: 48px;
+  background: #fff;
+}
+
+#feature-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 250px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+#feature-item .title {
+  margin-top: 24px;
+  text-align: center;
+  padding: 0px 0px 0px 0px;
+  /* color: #ff7c79; */
+  color: #ffa7a5;
+  /* color: #57bdee; */
+  font-size: 16pt;
+}
+
+#feature-item .description {
+  margin-top: 8px;
+  text-align: center;
+  padding: 0px 0px 0px 0px;
+  color: #7d7d7d;
+  font-size: 12pt;
+}
+
+.features .feature-image {
+  width: 48px;
+  height: 48px;
+}
+
+/* ==================== WYSIWYG ==================== */
+
+.demo-layout {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-top: 48px;
+  padding-bottom: 48px;
+  background: #f5f5f5;
+}
+
+.demo-text {
+  display: flex;
+  flex: 1;
+  flex-grow: 1;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 8%;
+  padding-right: 8%;
+}
+
+.demo-container {
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+.demo-gif {
+  width: 300px;
+  height: 600px;
+}
+
+/* ==================== INTRO ==================== */
+
+.layout {
+  padding-top: 48px;
+  padding-bottom: 48px;
+  background: #fff;
+}
+
+.md-block {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  padding-left: 7%;
+  padding-right: 7%;
+  /* background-color: #f5f5f5; */
+  border-radius: 8px;
+}
+
+.md-layout pre {
+  border-width: 0px;
+  background-color: transparent;
+  padding: 0;
+  margin-top: 16px;
+  overflow-x: auto;
+}
+
+.md-layout code {
+  margin: 0;
+  overflow-x: auto;
+}
+
+.md-layout {
+  display: flex;
+  flex: 1;
+  width: 100%;
+  flex-direction: column;
+  /* align-items: center; */
+}
+
+.md-layout .label {
+  align-self: center;
+}
+
+.md-img-more {
+  width: 48px;
+  height: 48px;
+  margin-top: 48px;
+  margin-bottom: 48px;
+}
+
+.md-img-block {
+  width: 200px;
+  height: 100px;
+  margin-bottom: 40px;
+  margin-top: 16px;
+  align-self: center;
+}
+
+/* ==================== WORKFLOW ==================== */
+
+.workflow-layout {
+  background-color: #f5f5f5;
+  padding-top: 48px;
+  padding-bottom: 48px;
+}
+
+.resp-container {
+  flex: 1 1 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 24px;
+}
+
+.resp-iframe {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  max-width: 450px;
+  min-height: 253.125px;
+  border: 0;
+}
+
+/* ==================== SHOWCASE ==================== */
+
+.showcase-item {
+  width: 100px;
+  height: 100px;
+  border-radius: 16px;
+  margin: 8px;
+}
+
+.showcase-layout {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.showcase-layout p {
+  padding-left: 8%;
+  padding-right: 8%;
+  text-align: center;
+}
+
+.showcase-logos {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  margin-top: 24px;
+}
+
+.help-layout {
+  margin-bottom: 96px;
+}
