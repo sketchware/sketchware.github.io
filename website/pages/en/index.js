@@ -86,7 +86,7 @@ class HomeSplash extends React.Component {
             />
           </a>
           <PromoSection>
-            <Button href={docUrl("doc2.html", language)}>
+            <Button href={docUrl("firebase-getting-started.html", language)}>
               Go to Documentation
             </Button>
           </PromoSection>
