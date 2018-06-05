@@ -75,7 +75,9 @@ class Footer extends React.Component {
           </div>
         </section>
 
-        <section className="copyright">{this.props.config.copyright}</section>
+        <a target="_blank" href="http://sketchware.io">
+          <section className="copyright">{this.props.config.copyright}</section>
+        </a>
       </footer>
     );
   }
