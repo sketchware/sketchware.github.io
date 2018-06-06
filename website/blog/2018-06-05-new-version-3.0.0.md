@@ -90,11 +90,11 @@ There are more to cover, and not enough space, so here is a few screenshot from 
 
 ### Deprecated - Add Source Directly Block
 
-Add Source Directly won't be available anymore starting this update. You guys may find this very saddening, but please try to see this issue from our perspective.
+Add Source Directly won't be available anymore starting this update. Existing projects with add source directly blocks will still compile, but you won't be able to add new add source directly blocks. You guys may find this very saddening, but please try to see this issue from our perspective.
 
 1.  `Sketchware was designed for block programming.`
 
-The foudners of Sketchware saw a prolem in the complicated methods of app development, and hoped that WYSIWYG editor and Block programming could be the solution to that problem. In the early stages of Sketchware, it was really mindblowing to see what the users came up with, using the blocks.
+The founders of Sketchware saw a prolem in the complicated methods of app development, and hoped that WYSIWYG editor and Block programming could be the solution to that problem. In the early stages of Sketchware, it was really mindblowing to see what the users came up with, using the blocks.
 
 However, looking at the projects in the shared projects category today, even the founders have no idea how the project works, and felt like the beauty of block programming was lost. More than 90% of the shared projects include an add source directly block that the viewers have no idea of how it works.
 
