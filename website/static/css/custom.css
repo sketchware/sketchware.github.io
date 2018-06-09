@@ -262,3 +262,28 @@
 .help-layout {
   margin-bottom: 96px;
 }
+
+/* Docs CSS */
+
+table {
+  background: #fff;
+  border: 1px solid #b0b0b0;
+  border-collapse: collapse;
+  display: table;
+  margin: 20px 0;
+  width: 80%;
+}
+
+table tr th {
+  color: #444444;
+  font-weight: bold;
+  background: #f5f5f5;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  text-transform: uppercase;
+}
+
+article p img {
+  max-width: 60%;
+  display: inline;
+  text-align: left;
+}

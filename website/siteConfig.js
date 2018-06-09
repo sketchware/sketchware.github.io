@@ -17,6 +17,13 @@ const apps = [
     pinned: true
   },
   {
+    caption: "Code Editor",
+    image: "/img/showcase/code-editor.png",
+    infoLink:
+      "https://play.google.com/store/apps/details?id=com.heystudios.codeeditor",
+    pinned: true
+  },
+  {
     caption: "SW Manifest Manager",
     image: "/img/showcase/sw-manifest-icon.png",
     infoLink:
@@ -115,7 +122,7 @@ const siteConfig = {
   headerLinks: [
     { doc: "firebase-getting-started", label: "Docs" },
     // { doc: "doc4", label: "API" },
-    { page: "help", label: "Help" },
+    { page: "help", label: "Community" },
     { blog: true, label: "Blog" }
   ],
 
