@@ -1,5 +1,6 @@
 {
   "docs": {
+    "The Basics": ["getting-started"],
     "Firebase": [
       "firebase-getting-started",
       "firebase-linking-android-app",
