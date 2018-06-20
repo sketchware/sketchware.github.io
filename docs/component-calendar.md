@@ -16,11 +16,11 @@ Using setData block to save a value of `someValue` with the key `someKey`.
 
 --------------------
 
-# Blocks
+## Blocks
 
-## getNow
+### getNow
 
-getNow is used to initialize and retrieve the current time value in milliseconds.
+Initialize and retrieve the current time value in milliseconds.
 
 ![get now](assets/calendar/get-now.png)
 
@@ -29,9 +29,9 @@ getNow is used to initialize and retrieve the current time value in milliseconds
 | Calendar | Calendar Component | Yes      |
 
 
-## getTime
+### getTime
 
-getTime is used to retrieve the time retrieved from the `getNow` block.
+Retrieve the time retrieved from the `getNow` block.
 
 ![get time](assets/calendar/get-time.png)
 
@@ -40,9 +40,9 @@ getTime is used to retrieve the time retrieved from the `getNow` block.
 | Calendar | Calendar Component | Yes      |
 
 
-## setTime
+### setTime
 
-setTime is used to set the Calendar component to a specific time value (ms).
+Set the Calendar component to a specific time value (ms).
 
 ![set time](assets/calendar/set-time.png)
 
@@ -51,13 +51,9 @@ setTime is used to set the Calendar component to a specific time value (ms).
 | Calendar | Calendar Component   | Yes      |
 | Number   | Time in milliseconds | Yes      |
 
+### addValue
 
-
-
-
-## addValue
-
-addValue is used to add an amount of time to the Calendar component.
+Add an amount of time to the Calendar component.
 
 ![add value](assets/calendar/add-value.png)
 
@@ -68,9 +64,9 @@ addValue is used to add an amount of time to the Calendar component.
 | Number   | Value to add                                                       | No       |
 
 
-## setValue
+### setValue
 
-setValue is used to set a specific time value on a Calendar component.
+Set a specific time value on a Calendar component.
 
 ![set value](assets/calendar/set-value.png)
 
@@ -81,9 +77,9 @@ setValue is used to set a specific time value on a Calendar component.
 | Number   | Value to set                                                       | No       |
 
 
-## Format
+### Format
 
-Format is used to format the time (ms) into a prettified format. Read more [here](https://developer.android.com/reference/java/util/Calendar).
+Format the time (ms) into a prettified format. Read more [here](https://developer.android.com/reference/java/util/Calendar).
 
 ![format](assets/calendar/format.png)
 
@@ -94,9 +90,9 @@ Format is used to format the time (ms) into a prettified format. Read more [here
 
 
 
-## difference
+### difference
 
-difference is used to find the difference between two Calendar components.
+Find the difference between two Calendar components.
 
 ![difference](assets/calendar/difference.png)
 

@@ -1,6 +1,24 @@
 {
   "docs": {
     "The Basics": ["getting-started"],
+    "Components": [
+      "component-intent",
+      "component-shared-preference",
+      "component-calendar",
+      "component-vibrator",
+      "component-timer",
+      "component-dialog",
+      "component-mediaplayer",
+      "component-soundpool",
+      "component-object-animator",
+      "component-camera",
+      "component-filepicker",
+      "component-gyroscope",
+      "component-firebase-database",
+      "component-firebase-auth",
+      "component-firebase-storage"
+    ],
+    "Guides": ["guide-creating-new-project"],
     "Firebase": [
       "firebase-getting-started",
       "firebase-linking-android-app",

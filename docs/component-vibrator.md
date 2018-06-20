@@ -10,11 +10,11 @@ Vibrator component is used to programmatically vibrate the device.
 
 --------------------
 
-# Blocks
+## Blocks
 
-## vibrate
+### vibrate
 
-vibrate is used to programmatically vibrate the device.
+Programmatically vibrate the device.
 
 ![vibrate](assets/vibrator/vibrate-for.png)
 

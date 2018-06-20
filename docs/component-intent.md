@@ -16,11 +16,11 @@ Set of blocks to start another activity while passing the data of `someValue` wi
 
 --------------------
 
-# Blocks
+## Blocks
 
-## setData
+### setData
 
-setData is used to point to the location of a data object (like a file for example), while putExtra adds simple data types (such as an SMS text string for example).
+Used to point to the location of a data object (like a file for example), while putExtra adds simple data types (such as an SMS text string for example).
 
 ![set data](assets/intent/set-data.png)
 
@@ -29,9 +29,9 @@ setData is used to point to the location of a data object (like a file for examp
 | Intent | Intent Component                                                                                                     | Yes      |
 | String | Data to transfer to next activity. Read more [here](https://developer.android.com/guide/components/intents-filters). | No       |
 
-## setScreen
+### setScreen
 
-setScreen is used to start another Activity.
+Sets the screen to navigate to.
 
 ![set screen](assets/intent/set-screen.png)
 
@@ -40,9 +40,9 @@ setScreen is used to start another Activity.
 | Intent   | Intent Component        | Yes      |
 | Activity | Activity to navigate to | Yes      |
 
-## putExtra
+### putExtra
 
-putExtra is used to pass data to another Activity. After you pass the data, you retrieve the data using the `Activity getExtra key []` block.
+Pass data to another Activity. After you pass the data, you retrieve the data using the `Activity getExtra key []` block.
 
 ![put extra](assets/intent/put-extra.png)
 
@@ -52,9 +52,9 @@ putExtra is used to pass data to another Activity. After you pass the data, you 
 | String | Key value used to retrieve later | Yes      |
 | String | Value to pass                    | Yes      |
 
-## setFlags
+### setFlags
 
-setFlags changes the behavior of an activity.
+Change the behavior of an activity.
 
 1. `SINGLE_TOP` — Organizes the views in a way that if the view you’re about to transition to was already called before, it would bring that view to the top rather than putting another copy on the top.
 
@@ -67,9 +67,9 @@ setFlags changes the behavior of an activity.
 | Intent | Intent Component | Yes      |
 | Flag   | Flag to set      | Yes      |
 
-## startActivity
+### startActivity
 
-startActivity starts a new activity.
+Start a new activity.
 
 ![start activity](assets/intent/start-activity.png)
 

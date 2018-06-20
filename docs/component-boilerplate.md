@@ -4,6 +4,8 @@ title: title
 sidebar_label: label
 ---
 
+Description
+
 ## Example
 
 Using setData block to save a value of `someValue` with the key `someKey`.
@@ -14,9 +16,9 @@ Using setData block to save a value of `someValue` with the key `someKey`.
 
 --------------------
 
-# Blocks
+## Blocks
 
-## getData
+### getData
 
 getData is used to retrieve the saved data.
 
@@ -26,3 +28,9 @@ getData is used to retrieve the saved data.
 | ----------------- | ------------------------------------------- | -------- |
 | Shared Preference | Shared Preference Component                 | Yes      |
 | String            | Key of the value you are trying to retrieve | Yes      |
+
+## Events
+
+getData is used to retrieve the saved data.
+
+![example](assets/intent/example.png)

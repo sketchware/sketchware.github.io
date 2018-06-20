@@ -16,11 +16,11 @@ These blocks will rotate the view `textview1` by 90 degrees every 1 second.
 
 --------------------
 
-# Blocks
+## Blocks
 
-## after
+### after
 
-after block executes the task after set amount of time.
+Execute the task after set amount of time.
 
 ![after](assets/timer/after.png)
 
@@ -29,9 +29,9 @@ after block executes the task after set amount of time.
 | Timer  | Timer Component                                       | Yes      |
 | Number | Amount of time (ms) to wait before executing the task | Yes      |
 
-## after every
+### after every
 
-after every block executes the task after set amount of time.
+Execute the task after set amount of time, and repeat it every set amount of time.
 
 ![after every](assets/timer/after-every.png)
 
@@ -41,9 +41,9 @@ after every block executes the task after set amount of time.
 | Number | Amount of time (ms) to wait before executing the task       | Yes      |
 | Number | Amount of time (ms) to wait before executing the task again | Yes      |
 
-## cancel
+### cancel
 
-cancel block cancels the timer task.
+Cancel the timer task.
 
 ![cancel](assets/timer/cancel.png)
 

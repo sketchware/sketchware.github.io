@@ -16,11 +16,11 @@ Using setData block to save a value of `someValue` with the key `someKey`.
 
 --------------------
 
-# Blocks
+## Blocks
 
-## getData
+### getData
 
-getData is used to retrieve the saved data.
+Retrieve the saved data.
 
 ![get data](assets/sharedpreference/get-data.png)
 
@@ -29,9 +29,9 @@ getData is used to retrieve the saved data.
 | Shared Preference | Shared Preference Component                 | Yes      |
 | String            | Key of the value you are trying to retrieve | Yes      |
 
-## setData
+### setData
 
-setData is used to save data.
+Save data with the key value pair.
 
 ![set data](assets/sharedpreference/set-data.png)
 
@@ -41,9 +41,9 @@ setData is used to save data.
 | String            | Key value                    | Yes      |
 | String            | Value you are trying to save | Yes      |
 
-## removeData
+### removeData
 
-removeData is used to remove the data with the key value.
+Remove the data with the key value.
 
 ![remove data](assets/sharedpreference/remove-data.png)
 
