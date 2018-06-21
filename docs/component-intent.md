@@ -4,7 +4,7 @@ title: Intent
 sidebar_label: Intent
 ---
 
-An Intent is a messaging object you can use to request an action from another app component. You can use the Intent component to **start a new acitivity** or **pass data to another activity**.
+An Intent is a messaging object you can use to request an action from another app component. You can use the Intent component to **start a new acitivity** or **pass data to another activity or app**.
 
 ## Example
 
@@ -31,7 +31,7 @@ Used to point to the location of a data object (like a file for example), while 
 
 ### setScreen
 
-Sets the screen to navigate to.
+The `setScreen` block is used to set a target activity for the intent
 
 ![set screen](assets/intent/set-screen.png)
 
@@ -62,17 +62,17 @@ Change the behavior of an activity.
 
 ![set flags](assets/intent/set-flags.png)
 
-| Type   | Explanation      | Required |
+| Block type   | Explanation      | Required |
 | ------ | ---------------- | -------- |
 | Intent | Intent Component | Yes      |
 | Flag   | Flag to set      | Yes      |
 
 ### startActivity
 
-Start a new activity.
+The `startActivity` block is used to start the actions set by the intent
 
 ![start activity](assets/intent/start-activity.png)
 
-| Type   | Explanation      | Required |
+| Block type   | Explanation      | Required |
 | ------ | ---------------- | -------- |
 | Intent | Intent Component | Yes      |
