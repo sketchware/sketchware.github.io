@@ -24,9 +24,9 @@ Used to point to the location of a data object (like a file for example), while 
 
 ![set data](assets/intent/set-data.png)
 
-| Type   | Explanation                                                                                                          | Required |
-| ------ | -------------------------------------------------------------------------------------------------------------------- | -------- |
-| Intent | Intent Component                                                                                                     | Yes      |
+| Type   | Explanation                                                  | Required |
+| ------ | ------------------------------------------------------------ | -------- |
+| Intent | Targeted intent component                                    | Yes      |
 | String | Data to transfer to next activity. Read more [here](https://developer.android.com/guide/components/intents-filters). | No       |
 
 ### setScreen
@@ -35,10 +35,10 @@ The `setScreen` block is used to set a target activity for the intent
 
 ![set screen](assets/intent/set-screen.png)
 
-| Type     | Explanation             | Required |
-| -------- | ----------------------- | -------- |
-| Intent   | Intent Component        | Yes      |
-| Activity | Activity to navigate to | Yes      |
+| Type     | Explanation               | Required |
+| -------- | --------------------------| -------- |
+| Intent   | Targeted intent component | Yes      |
+| Activity | Targeted activity         | Yes      |
 
 ### putExtra
 
@@ -48,7 +48,7 @@ Pass data to another Activity. After you pass the data, you retrieve the data us
 
 | Type   | Explanation                      | Required |
 | ------ | -------------------------------- | -------- |
-| Intent | Intent Component                 | Yes      |
+| Intent | Targeted intent component        | Yes      |
 | String | Key value used to retrieve later | Yes      |
 | String | Value to pass                    | Yes      |
 
@@ -62,10 +62,10 @@ Change the behavior of an activity.
 
 ![set flags](assets/intent/set-flags.png)
 
-| Block type   | Explanation      | Required |
-| ------ | ---------------- | -------- |
-| Intent | Intent Component | Yes      |
-| Flag   | Flag to set      | Yes      |
+| Block type | Explanation               | Required |
+| ---------- | ------------------------- | -------- |
+| Intent     | Targeted intent component | Yes      |
+| Flag       | Flag to set               | Yes      |
 
 ### startActivity
 
@@ -73,6 +73,6 @@ The `startActivity` block is used to start the actions set by the intent
 
 ![start activity](assets/intent/start-activity.png)
 
-| Block type   | Explanation      | Required |
-| ------ | ---------------- | -------- |
-| Intent | Intent Component | Yes      |
+| Block type | Explanation               | Required |
+| ---------- | ------------------------- | -------- |
+| Intent     | Targeted intent component | Yes      |
