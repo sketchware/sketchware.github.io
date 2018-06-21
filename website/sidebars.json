@@ -1,6 +1,13 @@
 {
   "docs": {
-    "The Basics": ["getting-started"],
+    "The Basics": [
+      "getting-started",
+      "basic-creating-new-project",
+      "basic-design",
+      "basic-logic",
+      "basic-component",
+      "basic-resource"
+    ],
     "Components": [
       "component-intent",
       "component-shared-preference",
@@ -18,7 +25,7 @@
       "component-firebase-auth",
       "component-firebase-storage"
     ],
-    "Guides": ["guide-creating-new-project"],
+    "Guides": [],
     "Firebase": [
       "firebase-getting-started",
       "firebase-linking-android-app",
