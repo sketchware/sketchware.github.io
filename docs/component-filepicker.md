@@ -4,7 +4,7 @@ title: FilePicker
 sidebar_label: FilePicker
 ---
 
-FilePicker component is used to **pick files from the device**.
+FilePicker component is used to **pick files from the device storage, MicroSD card and from the cloud (Google drive, Dropbox and etc)**. The FilePicker component can also filter on what type of files the user can pick using the MIME filter.
 
 ## Example
 
@@ -20,20 +20,21 @@ Picking files from the device.
 
 ### pick files
 
-Pick files from the device.
+This block triggers the file picker.
 
 ![pick files](assets/filepicker/pick-files.png)
 
-| Type       | Explanation           | Required |
-| ---------- | --------------------- | -------- |
-| FilePicker | File Picker Component | Yes      |
+| Type       | Explanation                     | Required |
+| ---------- | ------------------------------- | -------- |
+| FilePicker | Targeted File Picker component  | Yes      |
 
 ## Events
 
 ### onFilesPicked
 
-Triggered when the file is picked.
+This event triggers when the user has successfully picked a file from the file picker
+**filePath (List string)** - The file path(s) where the user has selected
 
-### onPictureTakenCancel
+### onFilesPickedCancel
 
-Triggered when the file pick event is cancelled.
+This event triggers when the user did not pick a file successfully.
