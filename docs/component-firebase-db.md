@@ -20,13 +20,13 @@ Creating and saving a post information on Firebase Database.
 
 ### add key value
 
-Add data to Firebase Database with key-value format.
+This block adds data into the 
 
 ![add key value](assets/component-firebase-database/add-key-value.png)
 
 | Type              | Explanation                             | Required |
 | ----------------- | --------------------------------------- | -------- |
-| Firebase Database | Firebase Database Component             | Yes      |
+| Firebase Database | Targeted firebase Database Component    | Yes      |
 | String            | Key of the value you are trying to save | Yes      |
 | Map               | Map of values                           | Yes      |
 
