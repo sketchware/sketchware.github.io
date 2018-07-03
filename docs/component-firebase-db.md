@@ -20,40 +20,40 @@ Creating and saving a post information on Firebase Database.
 
 ### add key value
 
-This block adds data into the 
+The 'add key value' block adds data into the Firebase database
 
 ![add key value](assets/component-firebase-database/add-key-value.png)
 
 | Type              | Explanation                             | Required |
 | ----------------- | --------------------------------------- | -------- |
-| Firebase Database | Targeted firebase Database Component    | Yes      |
+| Firebase Database | Targeted Firebase Database Component    | Yes      |
 | String            | Key of the value you are trying to save | Yes      |
 | Map               | Map of values                           | Yes      |
 
 ### push value
 
-Push data to Firebase Database with a generated unique random key.
+The 'push value' block pushes data to Firebase Database with a generated Unique Identification Key (UID).
 
 ![push value](assets/component-firebase-database/push-value.png)
 
-| Type              | Explanation                 | Required |
-| ----------------- | --------------------------- | -------- |
-| Firebase Database | Firebase Database Component | Yes      |
-| Map               | Map of values               | Yes      |
+| Type              | Explanation                          | Required |
+| ----------------- | ------------------------------------ | -------- |
+| Firebase Database | Targeted Firebase Database Component | Yes      |
+| Map variable      | Map containing values                | Yes      |
 
 ### push getKey
 
-Generate a unique random key.
+The 'push getKey' block generates a unique random key.
 
 ![get key](assets/component-firebase-database/push-get-key.png)
 
-| Type              | Explanation                 | Required |
-| ----------------- | --------------------------- | -------- |
-| Firebase Database | Firebase Database Component | Yes      |
+| Type              | Explanation                          | Required |
+| ----------------- | ------------------------------------ | -------- |
+| Firebase Database | Targeted Firebase Database Component | Yes      |
 
 ### delete key
 
-Delete the data from the Databse with the given key.
+The 'delete key' block deletes the data from the Databse with the given key.
 
 ![delete key](assets/component-firebase-database/delete-key.png)
 
@@ -62,52 +62,59 @@ Delete the data from the Databse with the given key.
 | Firebase Database | Firebase Database Component               | Yes      |
 | String            | Key of the value you are trying to delete | Yes      |
 
-### get children to then
+### get children to --- then
 
-Retrieve the value to List Map, then perform additional action.
+The 'get children to ---then' block retrieves the values from a Firebase database and transfers it to a List Map, then performs additional action if required.
 
 ![get children to then](assets/component-firebase-database/get-children-then.png)
 
-| Type              | Explanation                 | Required |
-| ----------------- | --------------------------- | -------- |
-| Firebase Database | Firebase Database Component | Yes      |
-| List Map          | List Map variable           | Yes      |
+| Type              | Explanation                          | Required |
+| ----------------- | ------------------------------------ | -------- |
+| Firebase Database | Targeted Firebase Database Component | Yes      |
+| List Map          | Targeted List Map variable           | Yes      |
 
 ### start listening
 
-Start listening to changes in the database. The component starts listening by default. Only used after stopping the listener.
+The 'start listening' block starts listening to changes in the Firebase database. The component starts listening by default. Only used listening is turned off manually.
 
 ![start listening](assets/component-firebase-database/start-listening.png)
 
-| Type              | Explanation                 | Required |
-| ----------------- | --------------------------- | -------- |
-| Firebase Database | Firebase Database Component | Yes      |
+| Type              | Explanation                          | Required |
+| ----------------- | ------------------------------------ | -------- |
+| Firebase Database | Targeted Firebase Database Component | Yes      |
 
 ### stop listening
 
-Stop listening to the changes in the database.
+The 'stop listening' block stops listening to the changes in the database.
 
 ![stop listening](assets/component-firebase-database/stop-listening.png)
 
-| Type              | Explanation                 | Required |
-| ----------------- | --------------------------- | -------- |
-| Firebase Database | Firebase Database Component | Yes      |
+| Type              | Explanation                          | Required |
+| ----------------- | ------------------------------------ | -------- |
+| Firebase Database | Targeted Firebase Database Component | Yes      |
 
 ## Events
 
 ### onChildAdded
 
-Triggered when a new child value is added.
+The 'onChildAdded' event is triggered when a new child value is added to the database.
+**childKey (string)** - The key of the added child.
+**Map: childValue** - A map containing the details about the added child.
 
-### onChildChnaged
+### onChildChanged
 
-Triggered when any value in children has changed.
-
+The 'onChildChanged' event is triggered when any value in the children within the list has been changed.
+**childKey (string)** - The key of the changed child.
+**Map: childValue** - A map containing the details about the modified child.
 
 ### onChildRemoved
 
-Triggered when a child is removed from reference.
+The 'onChildRemoved' event is triggered when a child is removed from reference.
+**childKey (string)** - The key of the removed child.
+**Map: childValue** - A map containing the details about the removed child.
 
 ### onCancelled
 
-Triggered when any read or write action is cancelled.
+The 'onCancelled' event is triggered when any read or write action is cancelled.
+**errorCode (number)** - The error code of the given error.
+**errorMessage (string)** - A string containing the message of the error.
