@@ -12,6 +12,10 @@ Set of blocks to start another activity while passing the data of `someValue` wi
 
 ![example](assets/intent/example.png)
 
+## Other uses
+- Open a external app
+- Send data (E-mail, SMS) to a application that supports it
+
 <br/>
 
 --------------------
@@ -31,7 +35,7 @@ Used to point to the location of a data object (like a file for example), while 
 
 ### setScreen
 
-The `setScreen` block is used to set a target activity for the intent
+The 'setScreen' block is used to set a target activity for the intent
 
 ![set screen](assets/intent/set-screen.png)
 
@@ -42,7 +46,7 @@ The `setScreen` block is used to set a target activity for the intent
 
 ### putExtra
 
-Pass data to another Activity. After you pass the data, you retrieve the data using the `Activity getExtra key []` block.
+Pass data to another Activity. After you pass the data, you retrieve the data using the 'Activity getExtra key []' block.
 
 ![put extra](assets/intent/put-extra.png)
 
@@ -54,7 +58,7 @@ Pass data to another Activity. After you pass the data, you retrieve the data us
 
 ### setFlags
 
-Change the behavior of an activity.
+The 'setFlags' block changes the behavior of an activity.
 
 1. `SINGLE_TOP` — Organizes the views in a way that if the view you’re about to transition to was already called before, it would bring that view to the top rather than putting another copy on the top.
 
@@ -69,7 +73,7 @@ Change the behavior of an activity.
 
 ### startActivity
 
-The `startActivity` block is used to start the actions set by the intent
+The 'startActivity' block is used to start the actions set by the intent
 
 ![start activity](assets/intent/start-activity.png)
 
