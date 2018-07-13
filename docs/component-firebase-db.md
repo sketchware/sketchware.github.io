@@ -4,13 +4,17 @@ title: Firebase DB
 sidebar_label: Firebase DB
 ---
 
-Firebase DB is an online, real-time database used to store and read data. 
+Firebase DB is an online, real-time database used to store and read **text data**. 
 
 ## Example
 
-Creating and saving a post information on Firebase Database.
+- Creating and saving a post information on Firebase Database.
 
 ![example](assets/component-firebase-database/example.png)
+
+## Other uses
+- Saving usernames with emails
+- Get data from a centralised area with constant updates from other users.
 
 <br/>
 
