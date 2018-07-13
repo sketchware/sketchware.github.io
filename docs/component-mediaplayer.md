@@ -20,44 +20,44 @@ Creating a MediaPlayer and playing a sound file on a loop.
 
 ### create
 
-Create a MediaPlayer with a certain sound file.
+The 'create' block creates a MediaPlayer with the selected soundtrack.
 
 ![create](assets/mediaplayer/create.png)
 
-| Type        | Explanation           | Required |
-| ----------- | --------------------- | -------- |
-| MediaPlayer | MediaPlayer Component | Yes      |
-| Sound       | Sound file to load    | Yes      |
+| Type        | Explanation                    | Required |
+| ----------- | ------------------------------ | -------- |
+| MediaPlayer | Targeted MediaPlayer Component | Yes      |
+| Sound       | Sound file to load             | Yes      |
 
 ### start
 
-Play the loaded MediaPlayer.
+The 'start' block plays the loaded MediaPlayer.
 
 ![start](assets/mediaplayer/start.png)
 
-| Type        | Explanation           | Required |
-| ----------- | --------------------- | -------- |
-| MediaPlayer | MediaPlayer Component | Yes      |
+| Type        | Explanation                    | Required |
+| ----------- | ------------------------------ | -------- |
+| MediaPlayer | Targeted MediaPlayer Component | Yes      |
 
 ### pause
 
-Pause the playing MediaPlayer.
+The 'pause' block pauses the playing MediaPlayer.
 
 ![pause](assets/mediaplayer/pause.png)
 
-| Type        | Explanation           | Required |
-| ----------- | --------------------- | -------- |
-| MediaPlayer | MediaPlayer Component | Yes      |
+| Type        | Explanation                    | Required |
+| ----------- | ------------------------------ | -------- |
+| MediaPlayer | Targeted MediaPlayer Component | Yes      |
 
 ### seek to
 
-Change the position of the MediaPlayer.
+The 'seek to' block changes the time position of the current plaing track in the mediaplayer.
 
 ![seek to](assets/mediaplayer/seek-to.png)
 
 | Type        | Explanation                      | Required |
 | ----------- | -------------------------------- | -------- |
-| MediaPlayer | MediaPlayer Component            | Yes      |
+| MediaPlayer | Targeted MediaPlayer Component   | Yes      |
 | Number      | Time to seek to, in milliseconds | Yes      |
 
 ### get current duration
@@ -72,17 +72,17 @@ Get the current position of the MediaPlayer, in milliseconds.
 
 ### get song duration
 
-Get the entire length of the sound file, in milliseconds.
+The 'get song duration' gets the entire time length of the sound file, in milliseconds.
 
 ![get song duration](assets/mediaplayer/get-song-duration.png)
 
-| Type        | Explanation           | Required |
-| ----------- | --------------------- | -------- |
-| MediaPlayer | MediaPlayer Component | Yes      |
+| Type        | Explanation                    | Required |
+| ----------- | ------------------------------ | -------- |
+| MediaPlayer | Targeted MediaPlayer Component | Yes      |
 
 ### is playing
 
-Check if the media player is currently playing.
+The Check if the media player is currently playing.
 
 ![is playing](assets/mediaplayer/is-playing.png)
 
