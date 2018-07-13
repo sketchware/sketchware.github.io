@@ -5,12 +5,17 @@ sidebar_label: Firebase Storage
 ---
 
 Firebase Storage component is used to save and download files from an online storage.
+It is used to store all kinds of data like images and sound files.
 
 ## Example
 
 Uploading an image file after using Camera component to take a picture.
 
 ![example](assets/component-firebase-storage/example.png)
+
+## Other uses
+- Store files picked using FilePicker
+- Store app/game assets to make app size smaller
 
 <br/>
 
@@ -20,62 +25,67 @@ Uploading an image file after using Camera component to take a picture.
 
 ### upload file
 
-Upload file to path with the given name.
+The 'Upload file' block upload a local path given into the firebase server.
 
 ![upload file](assets/component-firebase-storage/upload-file.png)
 
-| Type             | Explanation                     | Required |
-| ---------------- | ------------------------------- | -------- |
-| Firebase Storage | Firebase Storage Component      | Yes      |
-| String           | Path to the file to be uploaded | Yes      |
-| String           | Name to save the file as        | Yes      |
+| Type             | Explanation                         | Required |
+| ---------------- | ----------------------------------- | -------- |
+| Firebase Storage | Targeted Firebase Storage Component | Yes      |
+| String           | Path to the file to be uploaded     | Yes      |
+| String           | Name to save the file as            | Yes      |
 
 ### download file
 
-Download file from url to given path.
+The 'Download file' block downloads files with the given remote firebase directory path into a given local path.
 
 ![download file](assets/component-firebase-storage/download-file.png)
 
-| Type             | Explanation                | Required |
-| ---------------- | -------------------------- | -------- |
-| Firebase Storage | Firebase Storage Component | Yes      |
-| String           | URL of the file            | Yes      |
-| String           | Path to save the file to   | Yes      |
+| Type             | Explanation                         | Required |
+| ---------------- | ----------------------------------- | -------- |
+| Firebase Storage | Targeted Firebase Storage Component | Yes      |
+| String           | URL of the file                     | Yes      |
+| String           | Path to save the file to            | Yes      |
 
 ### delete file
 
-Delete file at the given Firebase Storage URL.
+The 'Delete file' block deletes a file using the given remote Firebase directory path.
 
 ![delete file](assets/component-firebase-storage/delete-file.png)
 
-| Type             | Explanation                         | Required |
-| ---------------- | ----------------------------------- | -------- |
-| Firebase Storage | Firebase Storage Component          | Yes      |
-| String           | URL of the file in Firebase Storage | Yes      |
+| Type             | Explanation                                  | Required |
+| ---------------- | -------------------------------------------- | -------- |
+| Firebase Storage | Targeted Firebase Storage Component          | Yes      |
+| String           | URL of the file in Firebase Storage          | Yes      |
 
 
 ## Events
 
 ### onFailure
 
-Triggered when the file failed to upload or download.
+The 'onFailure' event triggers when an error is encountered with uploading or downloading a file from the Firebase storage database.
+**message (string)** - The error supplied from the service when the error occured
 
 ### onUploadSuccess
 
-Triggered when the file successfully uploaded.
+The 'onUploadSuccess' event triggers when the file/s were successfully uploaded into the Firebase storage database.
+**downloadUrl (string/link)** - The path of the recently uploaded file.
 
 ### onUploadProgress
 
-Triggered when the file starts uploading.
+The 'onUploadProgress' event triggers when the file starts uploading or if there is a change in the upload progress.
+**progressValue (integer)** - The current progress state of the uploading file.
 
 ### onDownloadProgress
 
-Triggered when the file starts downloading.
+The 'onDownloadProgress' event triggers when the file starts downloading or there os a change in the download progress.
+**progressValue (integer)** - The current progress state of the downloading file.
 
 ### onDownloadSuccess
 
-Triggered when the file successfully downloaded.
+The 'onDownloadSuccess' event triggers when the file successfully downloaded from the Firebase storage database.
+**totalByteCount (integer)** - The downloaded file size in bytes.
 
 ### onDeleteSuccess
 
-Triggered when the file is successfully deleted.
+The 'onDeleteSuccess' event triggers when the file is successfully deleted from the Firebase storage database.
