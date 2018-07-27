@@ -8,6 +8,25 @@
       "basic-component",
       "basic-resource"
     ],
+    "Guides": [],
+    "Firebase": [
+      "firebase-getting-started",
+      "firebase-linking-android-app",
+      "firebase-project-settings",
+      "firebase-database",
+      "firebase-auth",
+      "firebase-storage"
+    ],
+    "AdMob": [
+      "admob-getting-started",
+      "admob-creating-ad-unit",
+      "admob-adding-test-device"
+    ],
+    "Publishing": [
+      "publish-getting-started",
+      "publish-creating-service-account",
+      "publish-first-time"
+    ],
     "Components": [
       "component-intent",
       "component-shared-preference",
@@ -24,15 +43,6 @@
       "component-firebase-database",
       "component-firebase-auth",
       "component-firebase-storage"
-    ],
-    "Guides": [],
-    "Firebase": [
-      "firebase-getting-started",
-      "firebase-linking-android-app",
-      "firebase-project-settings",
-      "firebase-database",
-      "firebase-auth",
-      "firebase-storage"
     ]
   }
 }

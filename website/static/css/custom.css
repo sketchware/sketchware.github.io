@@ -283,7 +283,7 @@ table tr th {
 }
 
 article p img {
-  max-width: 60%;
+  /* max-width: 60%; */
   display: inline;
   text-align: left;
 }

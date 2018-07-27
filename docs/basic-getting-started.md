@@ -8,13 +8,15 @@ Welcome! Sketchware lets you create native Android applications on your smartpho
 
 ## The Basics
 
-- [Creating a New App](basic-creating-new-project)
-- [Designing Your App](basic-design)
-- [Programming Your App](basic-logic)
+- [Creating a New App](basic-creating-new-project.md)
+- [Designing Your App](basic-design.md)
+- [Programming Your App](basic-logic.md)
 
 ## Setup Guides
 
 - [Firebase Setup Guide](firebase-getting-started.md)
+- [AdMob Setup Guide](admob-getting-started.md)
+- [Publishing Setup Guide](publish-getting-started.md)
 
 ## Community & Help
 

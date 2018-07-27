@@ -123,7 +123,8 @@ const siteConfig = {
     { doc: "getting-started", label: "Docs" },
     // { doc: "doc4", label: "API" },
     { page: "help", label: "Community" },
-    { blog: true, label: "Blog" }
+    { blog: true, label: "Blog" },
+    { search: true }
   ],
 
   // If you have users set above, you add it here:
@@ -168,7 +169,11 @@ const siteConfig = {
 
   /* Open Graph and Twitter card images */
   ogImage: "img/og_image.png",
-  twitterImage: "img/og_image.png"
+  twitterImage: "img/og_image.png",
+  algolia: {
+    apiKey: "b1f3e7073cd95e888c3b1e579f5d2f4d",
+    indexName: "sketchware"
+  }
 
   // You may provide arbitrary config keys to be used as needed by your
   // template. For example, if you need your repo's URL...
