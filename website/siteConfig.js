@@ -103,7 +103,7 @@ const apps = [
 const siteConfig = {
   title: "Sketchware" /* title for your website */,
   tagline: "Create Apps on your Smartphone",
-  url: "https://sketchware.github.io" /* your website url */,
+  url: "https://docs.sketchware.github.io" /* your website url */,
   baseUrl: "/" /* base url for your project */,
   // For github.io type URLs, you would set the url and baseUrl like:
   //   url: 'https://facebook.github.io',
@@ -122,7 +122,8 @@ const siteConfig = {
   headerLinks: [
     { doc: "getting-started", label: "Docs" },
     { page: "help", label: "Community" },
-    { blog: true, label: "Blog" }
+    { blog: true, label: "Blog" },
+    { search: true }
   ],
 
   // If you have users set above, you add it here:
@@ -160,7 +161,10 @@ const siteConfig = {
   },
 
   // Add custom scripts here that would be placed in <script> tags
-  scripts: ["https://buttons.github.io/buttons.js"],
+  scripts: [
+    "https://buttons.github.io/buttons.js",
+    "https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js"
+  ],
 
   /* On page navigation for the current documentation page */
   onPageNav: "separate",
@@ -170,8 +174,7 @@ const siteConfig = {
   twitterImage: "img/og_image.png",
   algolia: {
     apiKey: "b1f3e7073cd95e888c3b1e579f5d2f4d",
-    indexName: "sketchware",
-    algoliaOptions: {}
+    indexName: "sketchware"
   }
 
   // You may provide arbitrary config keys to be used as needed by your
