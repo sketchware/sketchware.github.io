@@ -121,10 +121,8 @@ const siteConfig = {
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
     { doc: "getting-started", label: "Docs" },
-    // { doc: "doc4", label: "API" },
     { page: "help", label: "Community" },
-    { blog: true, label: "Blog" },
-    { search: true }
+    { blog: true, label: "Blog" }
   ],
 
   // If you have users set above, you add it here:
@@ -172,7 +170,8 @@ const siteConfig = {
   twitterImage: "img/og_image.png",
   algolia: {
     apiKey: "b1f3e7073cd95e888c3b1e579f5d2f4d",
-    indexName: "sketchware"
+    indexName: "sketchware",
+    algoliaOptions: {}
   }
 
   // You may provide arbitrary config keys to be used as needed by your
