@@ -55,24 +55,24 @@ The 'seek to' block changes the time position of the current plaing track in the
 
 ![seek to](assets/mediaplayer/seek-to.png)
 
-| Type        | Explanation                      | Required |
-| ----------- | -------------------------------- | -------- |
-| MediaPlayer | Targeted MediaPlayer Component   | Yes      |
-| Number      | Time to seek to, in milliseconds | Yes      |
+| Type        | Explanation                     | Required |
+| ----------- | ------------------------------- | -------- |
+| MediaPlayer | Targeted MediaPlayer Component  | Yes      |
+| Number      | Time to seek to in milliseconds | Yes      |
 
 ### get current duration
 
-Get the current position of the MediaPlayer, in milliseconds.
+The 'get current duration' block gets the current time position of the MediaPlayer queue in milliseconds.
 
 ![get current duration](assets/mediaplayer/get-current-duration.png)
 
-| Type        | Explanation           | Required |
-| ----------- | --------------------- | -------- |
-| MediaPlayer | MediaPlayer Component | Yes      |
+| Type        | Explanation                    | Required |
+| ----------- | ------------------------------ | -------- |
+| MediaPlayer | Targeted MediaPlayer Component | Yes      |
 
 ### get song duration
 
-The 'get song duration' gets the entire time length of the sound file, in milliseconds.
+The 'get song duration' block gets the entire time length of the sound file in milliseconds.
 
 ![get song duration](assets/mediaplayer/get-song-duration.png)
 
@@ -82,17 +82,17 @@ The 'get song duration' gets the entire time length of the sound file, in millis
 
 ### is playing
 
-The Check if the media player is currently playing.
+The 'is playing' block checks if the specified media player is currently playing.
 
 ![is playing](assets/mediaplayer/is-playing.png)
 
-| Type        | Explanation           | Required |
-| ----------- | --------------------- | -------- |
-| MediaPlayer | MediaPlayer Component | Yes      |
+| Type        | Explanation                    | Required |
+| ----------- | ------------------------------ | -------- |
+| MediaPlayer | Targeted MediaPlayer Component | Yes      |
 
 ### set looping
 
-Loop the MediaPlayer if true.
+The 'set looping' block decides whether the mediaplayer should loop after the music track queue is finished. The mediaplayer will loop if this option is set to true either by a variable or toggle manually.
 
 ![set looping](assets/mediaplayer/set-looping.png)
 
@@ -104,18 +104,18 @@ Loop the MediaPlayer if true.
 
 ### is looping
 
-Check if the MediaPlayer is currently in a looping state.
+The 'is looping' block checks if the MediaPlayer is currently in a looping state. it will return true if the mediaplayer is currently looping at that state.
 
 ![is looping](assets/mediaplayer/is-looping.png)
 
-| Type        | Explanation           | Required |
-| ----------- | --------------------- | -------- |
-| MediaPlayer | MediaPlayer Component | Yes      |
+| Type        | Explanation                    | Required |
+| ----------- | ------------------------------ | -------- |
+| MediaPlayer | Targeted MediaPlayer Component | Yes      |
 
 
 ### reset
 
-Reset the current position to 0.
+The 'reset' block resets the current position of the mediaplayer to 0 or you could say, the beginning of the queue.
 
 ![reset](assets/mediaplayer/reset.png)
 
@@ -125,11 +125,11 @@ Reset the current position to 0.
 
 ### release
 
-Release the connected sound file to the MediaPlayer. If released, you have to recreate the MediaPlayer.
+The 'Release' block releases the connected sound file to the MediaPlayer like deleting the queue paths of the sound files. If the mediaplayer has been released, you have to recreate the MediaPlayer or else errors will occur while using most of the mediaplayer blocks.
 
 ![release](assets/mediaplayer/release.png)
 
-| Type        | Explanation           | Required |
-| ----------- | --------------------- | -------- |
-| MediaPlayer | MediaPlayer Component | Yes      |
+| Type        | Explanation                    | Required |
+| ----------- | ------------------------------ | -------- |
+| MediaPlayer | Targeted MediaPlayer Component | Yes      |
 
