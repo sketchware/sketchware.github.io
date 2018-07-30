@@ -4,7 +4,7 @@ title: Camera
 sidebar_label: Camera
 ---
 
-Camera component is used to **take pictures**.
+The Camera component is used to **take pictures**.
 
 ## Example
 
@@ -24,16 +24,18 @@ Take a picture with the camera.
 
 ![take picture](assets/camera/take-picture.png)
 
-| Type   | Explanation      | Required |
-| ------ | ---------------- | -------- |
-| Camera | Camera Component | Yes      |
+| Type   | Explanation              | Required |
+| ------ | -------------------------| -------- |
+| Camera | Targeted camera component| Yes      |
 
 ## Events
 
 ### onPictureTaken
 
-Triggered when the picture is taken.
+The `onPictureTaken` event is triggered when a picture is taken by the user.
+
+**filePath** - The path where the picture is stored after the photo is being taken.
 
 ### onPictureTakenCancel
 
-Triggered when the picture taking event is cancelled.
+The `onPictureTakenCancel` event is triggered when the user cancels when taking a picture.
