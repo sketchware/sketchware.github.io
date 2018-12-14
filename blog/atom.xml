@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://docs.sketchware.github.io/blog</id>
+    <title>Sketchware Blog</title>
+    <updated>2018-12-14T06:00:00Z</updated>
+    <generator>Feed for Node.js</generator>
+    <link rel="alternate" href="https://docs.sketchware.github.io/blog"/>
+    <subtitle>The best place to stay up-to-date with the latest Sketchware news and events.</subtitle>
+    <logo>https://docs.sketchware.github.io/img/logo.png</logo>
+    <rights>Copyright © 2018 Sketchware</rights>
+    <entry>
+        <title type="html"><![CDATA[Version 3.6.0 Update Log]]></title>
+        <id>https://docs.sketchware.github.io/blog/2018/12/14/new-version-3.6.0.html</id>
+        <link href="https://docs.sketchware.github.io/blog/2018/12/14/new-version-3.6.0.html">
+        </link>
+        <updated>2018-12-14T06:00:00Z</updated>
+        <summary type="html"><![CDATA[<h2><a class="anchor" aria-hidden="true" id="end-of-competition"></a><a href="#end-of-competition" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>End of Competition</h2>
+<p>First of all, we apologize for ending the competition.</p>
+<p>We introduced the competition about three months ago, in hopes of making Sketchware more enjoyable for the users.</p>
+<p>We observed some amazing outcomes from the users; the pr</p>
+]]></summary>
+        <author>
+            <name>Sung Woo Park</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Introducing Sketchware Competition]]></title>
+        <id>https://docs.sketchware.github.io/blog/2018/09/06/introducing-sketchware-competition.html</id>
+        <link href="https://docs.sketchware.github.io/blog/2018/09/06/introducing-sketchware-competition.html">
+        </link>
+        <updated>2018-09-06T06:00:00Z</updated>
+        <summary type="html"><![CDATA[<p>Hello, Sketchware users!</p>
+<p>We're opening a very first Sketchware Competition.</p>
+<p>Sketchware competitions will be held for a certain duration of time, depending on the type of the competition.</p>
+<p>Winners will be selected based on the user interface and use</p>
+]]></summary>
+        <author>
+            <name>Sung Woo Park</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Version 3.1.0 Update Log]]></title>
+        <id>https://docs.sketchware.github.io/blog/2018/07/27/new-version-3.1.0.html</id>
+        <link href="https://docs.sketchware.github.io/blog/2018/07/27/new-version-3.1.0.html">
+        </link>
+        <updated>2018-07-27T06:00:00Z</updated>
+        <summary type="html"><![CDATA[<h2><a class="anchor" aria-hidden="true" id="new-features"></a><a href="#new-features" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>New Features</h2>
+<ol>
+<li><code>AdMob Library</code></li>
+</ol>
+<p>Many users wanted to monetize their creations when they distributed it to different channels, and we listened.</p>
+<p>Using oAuth 2.0 to link your AdMob account, adding and testing AdMob in Sketchware projects are now</p>
+]]></summary>
+        <author>
+            <name>Sung Woo Park</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Why Add Source Directly Block was removed.]]></title>
+        <id>https://docs.sketchware.github.io/blog/2018/06/12/why-asd-block-is-removed.html</id>
+        <link href="https://docs.sketchware.github.io/blog/2018/06/12/why-asd-block-is-removed.html">
+        </link>
+        <updated>2018-06-12T06:00:00Z</updated>
+        <summary type="html"><![CDATA[<p>Hello, many people have questioned why Add Source Directly Block was removed in the newest update, Sketchware version 3.0.0.</p>
+<p>Sketchware currently has a plan of implementing Android Archive Package (AAR) in the future updates, which will make creatin</p>
+]]></summary>
+        <author>
+            <name>Sung Woo Park</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Version 3.0.0 Update Log]]></title>
+        <id>https://docs.sketchware.github.io/blog/2018/06/05/new-version-3.0.0.html</id>
+        <link href="https://docs.sketchware.github.io/blog/2018/06/05/new-version-3.0.0.html">
+        </link>
+        <updated>2018-06-05T06:00:00Z</updated>
+        <summary type="html"><![CDATA[<h2><a class="anchor" aria-hidden="true" id="new-features"></a><a href="#new-features" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>New Features</h2>
+<ol>
+<li><code>Undo and Redo</code></li>
+</ol>
+<p>This was probably a big feature that everyone was waiting for. Although Sketchware is really easy to use with the drag and dropping functionality, one wrong drag and drop could really hurt you if you forgot to sa</p>
+]]></summary>
+        <author>
+            <name>Sung Woo Park</name>
+        </author>
+    </entry>
+</feed>
